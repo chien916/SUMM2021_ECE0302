@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Ex08" targetName="dynamic-bag-tests" />
+      <config projectName="Ex08" targetName="submission" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="15046e5b-5edd-4c23-b3d0-29d94960ef03" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1tjJezUsd2vKS3chChrOUxP9s3d" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="CMake Application.dynamic-bag-tests">
+    <configuration name="dynamic-bag-tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Ex08" TARGET_NAME="dynamic-bag-tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Ex08" RUN_TARGET_NAME="dynamic-bag-tests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="submission" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Ex08" TARGET_NAME="submission" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.dynamic-bag-tests" />
+      <item itemvalue="CMake Application.submission" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15046e5b-5edd-4c23-b3d0-29d94960ef03" name="Default Changelist" comment="" />
+      <created>1623276664881</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623276664881</updated>
+      <workItem from="1623276668210" duration="1579000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1990" height="305" key="GridCell.Tab.0.bottom" timestamp="1623278248507">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="1990" height="305" key="GridCell.Tab.0.bottom/2560.50.1440.850/0.40.2048.1112@0.40.2048.1112" timestamp="1623278248507" />
+    <state width="1990" height="305" key="GridCell.Tab.0.center" timestamp="1623278248507">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="1990" height="305" key="GridCell.Tab.0.center/2560.50.1440.850/0.40.2048.1112@0.40.2048.1112" timestamp="1623278248507" />
+    <state width="1990" height="305" key="GridCell.Tab.0.left" timestamp="1623278248507">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="1990" height="305" key="GridCell.Tab.0.left/2560.50.1440.850/0.40.2048.1112@0.40.2048.1112" timestamp="1623278248507" />
+    <state width="1990" height="305" key="GridCell.Tab.0.right" timestamp="1623278248507">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="1990" height="305" key="GridCell.Tab.0.right/2560.50.1440.850/0.40.2048.1112@0.40.2048.1112" timestamp="1623278248507" />
+    <state x="687" y="283" width="672" height="678" key="search.everywhere.popup" timestamp="1623278045857">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="687" y="283" width="672" height="678" key="search.everywhere.popup/2560.50.1440.850/0.40.2048.1112@0.40.2048.1112" timestamp="1623278045857" />
+  </component>
+</project>

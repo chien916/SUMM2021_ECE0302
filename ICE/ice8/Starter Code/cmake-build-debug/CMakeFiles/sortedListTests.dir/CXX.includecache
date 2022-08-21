@@ -1,0 +1,50 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/SM2021/ece0302/ICE/ice8/Starter Code/abstract_list.h
+cstdlib
+-
+
+E:/SM2021/ece0302/ICE/ice8/Starter Code/abstract_sorted_list.h
+cstdlib
+-
+
+E:/SM2021/ece0302/ICE/ice8/Starter Code/dynamic_array_list.h
+abstract_list.h
+E:/SM2021/ece0302/ICE/ice8/Starter Code/abstract_list.h
+dynamic_array_list.tpp
+E:/SM2021/ece0302/ICE/ice8/Starter Code/dynamic_array_list.tpp
+
+E:/SM2021/ece0302/ICE/ice8/Starter Code/dynamic_array_list.tpp
+dynamic_array_list.h
+E:/SM2021/ece0302/ICE/ice8/Starter Code/dynamic_array_list.h
+algorithm
+-
+stdexcept
+-
+iostream
+-
+
+E:/SM2021/ece0302/ICE/ice8/Starter Code/sorted_list.h
+abstract_sorted_list.h
+E:/SM2021/ece0302/ICE/ice8/Starter Code/abstract_sorted_list.h
+sorted_list.tpp
+E:/SM2021/ece0302/ICE/ice8/Starter Code/sorted_list.tpp
+
+E:/SM2021/ece0302/ICE/ice8/Starter Code/sorted_list.tpp
+sorted_list.h
+E:/SM2021/ece0302/ICE/ice8/Starter Code/sorted_list.h
+
+E:/SM2021/ece0302/ICE/ice8/Starter Code/test_sorted_list.cpp
+dynamic_array_list.h
+E:/SM2021/ece0302/ICE/ice8/Starter Code/dynamic_array_list.h
+sorted_list.h
+E:/SM2021/ece0302/ICE/ice8/Starter Code/sorted_list.h
+cassert
+-
+

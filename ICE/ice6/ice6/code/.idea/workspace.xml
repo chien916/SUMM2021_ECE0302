@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="SortedList_LinkedList" targetName="test_sorted_linked_list" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9bb19f53-6acb-4f9f-a7a0-302b685396cd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1v1mUiipiAnbq97epz2cURcSLKx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager">
+    <configuration name="test_sorted_linked_list" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SortedList_LinkedList" TARGET_NAME="test_sorted_linked_list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SortedList_LinkedList" RUN_TARGET_NAME="test_sorted_linked_list">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bb19f53-6acb-4f9f-a7a0-302b685396cd" name="Default Changelist" comment="" />
+      <created>1625737986917</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625737986917</updated>
+      <workItem from="1625737990246" duration="25388000" />
+      <workItem from="1626171839997" duration="82000" />
+      <workItem from="1626399388058" duration="1641000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="324" y="56" key="#Notifications" timestamp="1625737997767">
+      <screen x="0" y="0" width="1463" height="793" />
+    </state>
+    <state x="324" y="56" key="#Notifications/0.0.1463.793@0.0.1463.793" timestamp="1625737997767" />
+    <state width="686" height="253" key="GridCell.Tab.0.bottom" timestamp="1625794797042">
+      <screen x="0" y="0" width="1463" height="793" />
+    </state>
+    <state width="686" height="253" key="GridCell.Tab.0.bottom/0.0.1463.793@0.0.1463.793" timestamp="1625794797042" />
+    <state width="686" height="253" key="GridCell.Tab.0.center" timestamp="1625794797042">
+      <screen x="0" y="0" width="1463" height="793" />
+    </state>
+    <state width="686" height="253" key="GridCell.Tab.0.center/0.0.1463.793@0.0.1463.793" timestamp="1625794797042" />
+    <state width="686" height="253" key="GridCell.Tab.0.left" timestamp="1625794797042">
+      <screen x="0" y="0" width="1463" height="793" />
+    </state>
+    <state width="686" height="253" key="GridCell.Tab.0.left/0.0.1463.793@0.0.1463.793" timestamp="1625794797042" />
+    <state width="686" height="253" key="GridCell.Tab.0.right" timestamp="1625794797042">
+      <screen x="0" y="0" width="1463" height="793" />
+    </state>
+    <state width="686" height="253" key="GridCell.Tab.0.right/0.0.1463.793@0.0.1463.793" timestamp="1625794797042" />
+    <state width="686" height="253" key="GridCell.Tab.1.bottom" timestamp="1625794797042">
+      <screen x="0" y="0" width="1463" height="793" />
+    </state>
+    <state width="686" height="253" key="GridCell.Tab.1.bottom/0.0.1463.793@0.0.1463.793" timestamp="1625794797042" />
+    <state width="686" height="253" key="GridCell.Tab.1.center" timestamp="1625794797042">
+      <screen x="0" y="0" width="1463" height="793" />
+    </state>
+    <state width="686" height="253" key="GridCell.Tab.1.center/0.0.1463.793@0.0.1463.793" timestamp="1625794797042" />
+    <state width="686" height="253" key="GridCell.Tab.1.left" timestamp="1625794797042">
+      <screen x="0" y="0" width="1463" height="793" />
+    </state>
+    <state width="686" height="253" key="GridCell.Tab.1.left/0.0.1463.793@0.0.1463.793" timestamp="1625794797042" />
+    <state width="686" height="253" key="GridCell.Tab.1.right" timestamp="1625794797042">
+      <screen x="0" y="0" width="1463" height="793" />
+    </state>
+    <state width="686" height="253" key="GridCell.Tab.1.right/0.0.1463.793@0.0.1463.793" timestamp="1625794797042" />
+    <state x="54" y="79" key="SettingsEditor" timestamp="1625749452444">
+      <screen x="0" y="0" width="1463" height="793" />
+    </state>
+    <state x="54" y="79" key="SettingsEditor/0.0.1463.793@0.0.1463.793" timestamp="1625749452444" />
+    <state x="284" y="133" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1625791443689">
+      <screen x="0" y="0" width="1463" height="793" />
+    </state>
+    <state x="284" y="133" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1463.793@0.0.1463.793" timestamp="1625791443689" />
+    <state x="741" y="175" width="902" height="732" key="dock-window-1" timestamp="1625779910074">
+      <screen x="0" y="0" width="1463" height="793" />
+    </state>
+    <state x="741" y="175" width="902" height="732" key="dock-window-1/0.0.1463.793@0.0.1463.793" timestamp="1625779910074" />
+    <state x="-7" y="-7" width="745" height="807" key="dock-window-2" timestamp="1625794689837">
+      <screen x="0" y="0" width="1463" height="793" />
+    </state>
+    <state x="-7" y="-7" width="745" height="807" key="dock-window-2/0.0.1463.793@0.0.1463.793" timestamp="1625794689837" />
+    <state x="43" y="78" width="1011" height="800" key="dock-window-3" timestamp="1625791559216">
+      <screen x="0" y="0" width="1463" height="793" />
+    </state>
+    <state x="43" y="78" width="1011" height="800" key="dock-window-3/0.0.1463.793@0.0.1463.793" timestamp="1625791559216" />
+    <state x="389" y="179" key="run.anything.popup" timestamp="1625790518617">
+      <screen x="0" y="0" width="1463" height="793" />
+    </state>
+    <state x="389" y="179" key="run.anything.popup/0.0.1463.793@0.0.1463.793" timestamp="1625790518617" />
+    <state x="394" y="114" width="672" height="678" key="search.everywhere.popup" timestamp="1625791604036">
+      <screen x="0" y="0" width="1463" height="793" />
+    </state>
+    <state x="394" y="114" width="672" height="678" key="search.everywhere.popup/0.0.1463.793@0.0.1463.793" timestamp="1625791604036" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="lst.firstNodePointer-&gt;next" />
+        <watch expression="lst.firstNodePointer-&gt;next-&gt;next-&gt;next-&gt;next-&gt;next" />
+        <watch expression="lst.firstNodePointer" />
+        <watch expression="lst.firstNodePointer" />
+        <watch expression="lst.firstNodePointer-&gt;next-&gt;next-&gt;next-&gt;next-&gt;next-&gt;next-&gt;next-&gt;next-&gt;next-&gt;next-&gt;next-&gt;next-&gt;next" />
+        <watch expression="lst.firstNodePointer" />
+        <watch expression="this-&gt;next.next.next.next.next.next.next.next" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

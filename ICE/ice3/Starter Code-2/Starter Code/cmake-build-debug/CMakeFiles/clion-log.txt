@@ -1,0 +1,17 @@
+"D:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/MinGW/bin/mingw32-make.exe -DCMAKE_C_COMPILER=C:/MinGW/bin/gcc.exe -DCMAKE_CXX_COMPILER=C:/MinGW/bin/c++.exe -G "CodeBlocks - MinGW Makefiles" "E:\SM2021\ece0302\ICE\ice3\Starter Code-2\Starter Code"
+-- The CXX compiler identification is GNU 6.3.0
+-- Check for working CXX compiler: C:/MinGW/bin/c++.exe
+-- Check for working CXX compiler: C:/MinGW/bin/c++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+
+
+-- Build files have been written to: E:/SM2021/ece0302/ICE/ice3/Starter Code-2/Starter Code/cmake-build-debug

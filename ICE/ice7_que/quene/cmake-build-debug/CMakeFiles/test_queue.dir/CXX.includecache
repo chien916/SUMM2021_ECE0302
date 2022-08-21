@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/SM2021/ece0302/ICE/ice7_que/quene/abstract_list.h
+cstdlib
+-
+
+E:/SM2021/ece0302/ICE/ice7_que/quene/abstract_queue.h
+
+E:/SM2021/ece0302/ICE/ice7_que/quene/dynamic_array_list.h
+abstract_list.h
+E:/SM2021/ece0302/ICE/ice7_que/quene/abstract_list.h
+dynamic_array_list.tpp
+E:/SM2021/ece0302/ICE/ice7_que/quene/dynamic_array_list.tpp
+
+E:/SM2021/ece0302/ICE/ice7_que/quene/dynamic_array_list.tpp
+dynamic_array_list.h
+E:/SM2021/ece0302/ICE/ice7_que/quene/dynamic_array_list.h
+algorithm
+-
+stdexcept
+-
+iostream
+-
+
+E:/SM2021/ece0302/ICE/ice7_que/quene/queue.h
+abstract_queue.h
+E:/SM2021/ece0302/ICE/ice7_que/quene/abstract_queue.h
+abstract_list.h
+E:/SM2021/ece0302/ICE/ice7_que/quene/abstract_list.h
+
+E:/SM2021/ece0302/ICE/ice7_que/quene/test_queue.cpp
+queue.h
+E:/SM2021/ece0302/ICE/ice7_que/quene/queue.h
+dynamic_array_list.h
+E:/SM2021/ece0302/ICE/ice7_que/quene/dynamic_array_list.h
+cassert
+-
+

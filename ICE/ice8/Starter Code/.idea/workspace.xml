@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="P0" targetName="priorityQueueTests" />
+      <config projectName="P0" targetName="sortedListTests" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="de63b88a-a43d-4f8f-aa72-141274e6e492" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1vNMSYCMLuC1LtCNcewVNoL7isv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunManager" selected="CMake Application.sortedListTests">
+    <configuration name="priorityQueueTests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="P0" TARGET_NAME="priorityQueueTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="P0" RUN_TARGET_NAME="priorityQueueTests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sortedListTests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="P0" TARGET_NAME="sortedListTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="P0" RUN_TARGET_NAME="sortedListTests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.priorityQueueTests" />
+      <item itemvalue="CMake Application.sortedListTests" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de63b88a-a43d-4f8f-aa72-141274e6e492" name="Default Changelist" comment="" />
+      <created>1626398094525</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626398094525</updated>
+      <workItem from="1626398098651" duration="8532000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="2005" height="367" key="GridCell.Tab.0.bottom" timestamp="1626406694825">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="367" key="GridCell.Tab.0.bottom/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626406694825" />
+    <state width="2005" height="367" key="GridCell.Tab.0.center" timestamp="1626406694825">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="367" key="GridCell.Tab.0.center/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626406694825" />
+    <state width="2005" height="367" key="GridCell.Tab.0.left" timestamp="1626406694825">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="367" key="GridCell.Tab.0.left/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626406694825" />
+    <state width="2005" height="367" key="GridCell.Tab.0.right" timestamp="1626406694825">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="367" key="GridCell.Tab.0.right/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626406694825" />
+    <state width="2005" height="367" key="GridCell.Tab.1.bottom" timestamp="1626406694826">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="367" key="GridCell.Tab.1.bottom/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626406694826" />
+    <state width="2005" height="367" key="GridCell.Tab.1.center" timestamp="1626406694825">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="367" key="GridCell.Tab.1.center/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626406694825" />
+    <state width="2005" height="367" key="GridCell.Tab.1.left" timestamp="1626406694825">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="367" key="GridCell.Tab.1.left/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626406694825" />
+    <state width="2005" height="367" key="GridCell.Tab.1.right" timestamp="1626406694826">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="367" key="GridCell.Tab.1.right/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626406694826" />
+    <state x="681" y="279" key="run.anything.popup" timestamp="1626404375657">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="681" y="279" key="run.anything.popup/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626404375657" />
+    <state x="687" y="283" width="672" height="678" key="search.everywhere.popup" timestamp="1626404518776">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="687" y="283" width="672" height="678" key="search.everywhere.popup/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626404518776" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/priority_queue.h</url>
+          <line>20</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sorted_list.tpp</url>
+          <line>72</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="plist.data[positionToInsert]" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

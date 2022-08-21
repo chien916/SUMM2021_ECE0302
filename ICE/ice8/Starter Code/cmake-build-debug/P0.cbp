@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="P0"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sortedListTests">
+				<Option output="E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/sortedListTests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 sortedListTests"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sortedListTests/fast">
+				<Option output="E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/sortedListTests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 sortedListTests/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="priorityQueueTests">
+				<Option output="E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/priorityQueueTests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 priorityQueueTests"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="priorityQueueTests/fast">
+				<Option output="E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/priorityQueueTests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 priorityQueueTests/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/ICE/ice8/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/SM2021/ece0302/ICE/ice8/Starter Code/catch.hpp">
+			<Option target="sortedListTests"/>
+			<Option target="priorityQueueTests"/>
+		</Unit>
+		<Unit filename="E:/SM2021/ece0302/ICE/ice8/Starter Code/dynamic_array_list.tpp">
+			<Option target="sortedListTests"/>
+			<Option target="priorityQueueTests"/>
+		</Unit>
+		<Unit filename="E:/SM2021/ece0302/ICE/ice8/Starter Code/sorted_list.tpp">
+			<Option target="sortedListTests"/>
+			<Option target="priorityQueueTests"/>
+		</Unit>
+		<Unit filename="E:/SM2021/ece0302/ICE/ice8/Starter Code/test_priority_queue.cpp">
+			<Option target="priorityQueueTests"/>
+		</Unit>
+		<Unit filename="E:/SM2021/ece0302/ICE/ice8/Starter Code/test_sorted_list.cpp">
+			<Option target="sortedListTests"/>
+		</Unit>
+		<Unit filename="E:/SM2021/ece0302/ICE/ice8/Starter Code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
