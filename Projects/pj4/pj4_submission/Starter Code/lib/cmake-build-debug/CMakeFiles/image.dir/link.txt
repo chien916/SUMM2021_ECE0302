@@ -1,0 +1,2 @@
+D:\MinGW\bin\ar.exe qc libimage.a  CMakeFiles/image.dir/image.obj CMakeFiles/image.dir/lodepng.obj
+D:\MinGW\bin\ranlib.exe libimage.a

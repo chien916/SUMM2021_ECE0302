@@ -1,0 +1,73 @@
+#ifndef cooryiq25
+#define cooryiq25
+#include "image.h"
+
+class Coordinate {
+public:
+    Coordinate() {
+        x = 0;
+        y = 0;
+        s = 0;
+    }
+
+    void clear() {
+        x = 0;
+        y = 0;
+        s = 0;
+    }
+
+    Coordinate &operator=(const Coordinate &inputCoordinateObject) {
+        x = inputCoordinateObject.getX();
+        y = inputCoordinateObject.getY();
+        s = inputCoordinateObject.getS();
+        return *this;
+    }
+
+    bool operator==(const Coordinate &inputCoordinateObject) {
+        bool test_x = inputCoordinateObject.getX() == x;
+        bool test_y = inputCoordinateObject.getY() == y;
+        return test_x && test_y ;
+    }
+
+    void set(const Image<Pixel> &inputImage, unsigned int xinput, unsigned int yinput) {
+        clear();
+        x = xinput;
+        y = yinput;
+        s = x * inputImage.width() + y;
+
+    }
+
+
+    void set(const Image<Pixel> &inputImage, unsigned int sinput) {
+        clear();
+        s = sinput;
+        x = 0;
+        y = s;
+        //unsigned int max_y = inputImage.width() - 1;
+        while (y > inputImage.width() - 1) {
+            y = y - (inputImage.width());
+            x = x + 1;
+        }
+    }
+
+    unsigned int getS() const {
+        return s;
+    }
+
+    unsigned int getX() const {
+        return x;
+    }
+
+    unsigned int getY() const {
+        return y;
+    }
+
+
+private:
+    unsigned int x;
+    unsigned int y;
+    unsigned int s;
+};
+
+
+#endif

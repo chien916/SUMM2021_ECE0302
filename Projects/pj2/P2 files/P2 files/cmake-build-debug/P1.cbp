@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="P1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="submission">
+				<Option working_dir="E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 submission"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FindPalindrome-main">
+				<Option output="E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/FindPalindrome-main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 FindPalindrome-main"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FindPalindrome-main/fast">
+				<Option output="E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/FindPalindrome-main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 FindPalindrome-main/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FindPalindrome-tests">
+				<Option output="E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/FindPalindrome-tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 FindPalindrome-tests"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FindPalindrome-tests/fast">
+				<Option output="E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/FindPalindrome-tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 FindPalindrome-tests/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/FindPalindrome.cpp">
+			<Option target="FindPalindrome-main"/>
+			<Option target="FindPalindrome-tests"/>
+		</Unit>
+		<Unit filename="E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/FindPalindrome.hpp">
+			<Option target="FindPalindrome-main"/>
+			<Option target="FindPalindrome-tests"/>
+		</Unit>
+		<Unit filename="E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/FindPalindrome_main.cpp">
+			<Option target="FindPalindrome-main"/>
+		</Unit>
+		<Unit filename="E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/FindPalindrome_test.cpp">
+			<Option target="FindPalindrome-tests"/>
+		</Unit>
+		<Unit filename="E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/catch.hpp">
+			<Option target="FindPalindrome-tests"/>
+		</Unit>
+		<Unit filename="E:/SM2021/ece0302/Projects/pj2/P2 files/P2 files/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

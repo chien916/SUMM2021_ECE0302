@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/SM2021/ece0302/Projects/pj3/pj3/Node.cpp
+cstddef
+-
+Node.hpp
+E:/SM2021/ece0302/Projects/pj3/pj3/Node.hpp
+
+E:/SM2021/ece0302/Projects/pj3/pj3/Node.hpp
+Node.cpp
+E:/SM2021/ece0302/Projects/pj3/pj3/Node.cpp
+
+E:/SM2021/ece0302/Projects/pj3/pj3/Stack.cpp
+iostream
+-
+cstddef
+-
+Stack.hpp
+E:/SM2021/ece0302/Projects/pj3/pj3/Stack.hpp
+Node.hpp
+E:/SM2021/ece0302/Projects/pj3/pj3/Node.hpp
+
+E:/SM2021/ece0302/Projects/pj3/pj3/Stack.hpp
+stdexcept
+-
+Node.hpp
+E:/SM2021/ece0302/Projects/pj3/pj3/Node.hpp
+Stack.cpp
+E:/SM2021/ece0302/Projects/pj3/pj3/Stack.cpp
+
+E:/SM2021/ece0302/Projects/pj3/pj3/mainStack.cpp
+iostream
+-
+Stack.hpp
+E:/SM2021/ece0302/Projects/pj3/pj3/Stack.hpp
+

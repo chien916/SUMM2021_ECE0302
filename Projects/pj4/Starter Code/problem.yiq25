@@ -1,0 +1,247 @@
+#ifndef problmyiq25
+#define problmyiq25
+
+#include "image.h"
+#include "deque.hpp"
+#include "coordinate.yiq25"
+
+#include <iostream>
+#include <string>
+#include <fstream>
+
+class Problem {
+public:
+    Problem();
+
+    Problem(std::string inputPngFilePathInput, std::string outputPngFilePathInput);
+
+    void go();
+
+private:
+    void testWrite();
+
+    bool findPath();
+
+    void generateOutputFile();
+
+    bool isVisitedListOrWall(const Coordinate &inputCoordinate, const std::string &controller);
+
+    void placeCellInFrontierQueue(const Coordinate &inputCoordinate, const std::string &controller);
+
+    bool isExit(const Coordinate &inputCoordinate);
+
+    void console(const int &status, const std::string &textToDisplay, const Coordinate &inputCoordinate);
+
+    bool MASTER_SWITCH_TEST = true;//false for submission
+    std::ofstream *ofstreamPointer;
+    std::string inputPngFilePath;
+    std::string outputPngFilePath;
+    Image<Pixel> inputPng;
+    Coordinate entryPoint;
+    Coordinate exitPoint;
+    Coordinate current;
+    Deque<Coordinate> frontier;
+    Deque<Coordinate> visited;
+    bool ifSolved = false;
+};
+
+#endif
+
+Problem::Problem() {
+    throw std::logic_error("Problem(): This constructor is forbidden to use");
+}
+
+void Problem::generateOutputFile() {
+    if (ifSolved) //print answer to output file if solution is found
+        inputPng(exitPoint.getX(), exitPoint.getY()) = GREEN;
+    writeToFile(inputPng, "YIQ25_OUT_"+outputPngFilePath);
+    testWrite();
+    writeToFile(inputPng, "YIQ25_PATH_"+outputPngFilePath);
+}
+
+Problem::Problem(std::string inputPngFilePathInput, std::string outputPngFilePathInput) {
+    ofstreamPointer = new std::ofstream(inputPngFilePathInput + "log", std::ofstream::out);
+    inputPngFilePath = inputPngFilePathInput;
+    outputPngFilePath = outputPngFilePathInput;
+    inputPng = readFromFile(inputPngFilePath);
+    //Look for Entry Point
+    unsigned int tempIndex = 0;
+    for (int xt = 0; xt < inputPng.height(); xt++) {
+        for (int yt = 0; yt < inputPng.width(); yt++) {
+            if (inputPng(xt, yt) == RED) {
+                current.set(inputPng, xt, yt);
+            }
+        }
+    }
+    entryPoint = current;
+    console(0, "Entry Point Found", entryPoint);
+    console(-1, "Pushed into FRONTIER Queue", entryPoint);
+    frontier.pushBack(entryPoint);
+    (*ofstreamPointer)
+            << "================================================================================================\n";
+}
+
+bool Problem::findPath() {
+    findPathStart:
+    if (frontier.isEmpty()) //is frontier list empty?
+    {
+        ifSolved = false;
+        return false;
+    }
+    current = frontier.front();//current cell = Frontier
+    console(-1, "LOADED INTO CURRENT ", current);
+    bool test1 = isExit(current);
+    if (test1)//is current cell an exit?
+    {
+        ifSolved = true;
+        return true;//if so, end pathfinding: solution is found.
+    }
+    std::string controllerSet[] = {"up", "down", "left", "right"};
+    bool test2 = !isVisitedListOrWall(current, controllerSet[0]);
+    if (test2)//is cell to the left in visited list or a wall?
+    {
+        //console(0,"^^Left is List Or Wall",current);
+        placeCellInFrontierQueue(current, controllerSet[0]);//if so, place cell in frontier queue
+    }
+    bool test3 = !isVisitedListOrWall(current, controllerSet[1]);
+    if (test3)//is cell up in visited list or a wall?
+    {
+        //console(0,"^^Above is List Or Wall",current);
+        placeCellInFrontierQueue(current, controllerSet[1]);//if so, place cell in frontier queue
+    }
+
+    bool test4 = !isVisitedListOrWall(current, controllerSet[2]);
+    if (test4)//is cell to the right in visited list or a wall?
+    {
+        //console(0,"^^Right is List Or Wall",current);
+        placeCellInFrontierQueue(current, controllerSet[2]);//if so, place cell in frontier queue
+    }
+    bool test5 = !isVisitedListOrWall(current, controllerSet[3]);
+    if (test5)//is cell down in visited list or a wall?
+    {
+        //console(0,"^^Below is List Or Wall",current);
+        placeCellInFrontierQueue(current, controllerSet[3]);//if so, place cell in frontier queue
+    }
+    console(-1, "Pushed into  VISITED Queue", current);
+    visited.pushBack(current);//place current cell in visited
+    console(1, "Popped out of FRONTIER Queue", frontier.front());
+    frontier.popFront();//de-queue frontier
+    (*ofstreamPointer)
+            << "================================================================================================\n";
+    goto findPathStart;
+
+}
+
+bool Problem::isExit(const Coordinate &inputCoordinate) {
+    auto i = 0;
+
+    bool test_leftExit = inputCoordinate.getY() == 0;
+    bool test_rightExit = inputCoordinate.getY() == inputPng.width() - 1;
+    bool test_upExit = inputCoordinate.getY() == 0;
+    bool test_downExit = inputCoordinate.getX() == inputPng.height() - 1;
+    bool test_any = test_leftExit || test_rightExit || test_upExit || test_downExit;
+    if (test_any) {
+        (*ofstreamPointer)
+                << "================================================================================================\n";
+        exitPoint = inputCoordinate;
+        console(0, "Exit Point Found", exitPoint);
+        return true;
+    } else {
+        return false;
+    }
+
+}
+
+bool Problem::isVisitedListOrWall(const Coordinate &inputCoordinate, const std::string &controller) {
+    auto i = 22;
+    //Shift coordinate members and construct a new Coordinate object
+    unsigned int xTemp = inputCoordinate.getX();
+    unsigned int yTemp = inputCoordinate.getY();
+    if (controller == "left") yTemp = inputCoordinate.getY() - 1;
+    else if (controller == "right") yTemp = inputCoordinate.getY() + 1;
+    else if (controller == "up") xTemp = inputCoordinate.getX() - 1;
+    else if (controller == "down") xTemp = inputCoordinate.getX() + 1;
+    else throw std::logic_error("isVisitedListOrWall(): string controller format unrecognized");
+    Coordinate coordinateToTestIfContains;
+    coordinateToTestIfContains.set(inputPng, xTemp, yTemp);
+
+    bool test_outOfBound = xTemp < 0 || xTemp > inputPng.height() - 1 || yTemp < 0 || yTemp > inputPng.width() - 1;
+    //std::cout<<"\nTEST"<<inputCoordinate.getY()<<" "<<inputCoordinate.getX();
+    //std::cout<<xTemp<<" "<<yTemp<<"\n";
+
+    //Pixel tempPixel=inputPng(inputCoordinate.getX(), inputCoordinate.getY());
+
+
+
+    if (test_outOfBound) {
+        //console(0, "^^Shifted Coordinate is YES visited or wall-outOfBound", coordinateToTestIfContains);
+        return true;
+    }
+    Pixel extractedPixel = inputPng(xTemp, yTemp);
+    bool test_isWall = extractedPixel == BLACK;
+    if (test_isWall) {
+        //console(0, "^^Shifted Coordinate is YES visited or wall-isWall    ", coordinateToTestIfContains);
+        return true;
+    }
+    bool test_alreadyVisited = visited.ifContains(coordinateToTestIfContains);
+    if (test_alreadyVisited) {
+        //console(0, "^^Shifted Coordinate is YES visited or wall-hasVisited", coordinateToTestIfContains);
+        return true;
+    } else {
+        //console(0, "^^Shifted Coordinate is NOT visited nor wall", coordinateToTestIfContains);
+        return false;
+    }
+}
+
+void Problem::placeCellInFrontierQueue(const Coordinate &inputCoordinate, const std::string &controller) {
+
+    unsigned int xTemp = inputCoordinate.getX();
+    unsigned int yTemp = inputCoordinate.getY();
+    if (controller == "left") yTemp--;
+    else if (controller == "right") yTemp++;
+    else if (controller == "up") xTemp--;
+    else if (controller == "down") xTemp++;
+    Coordinate coordinateToPlaceIntoQueue;
+    coordinateToPlaceIntoQueue.set(inputPng, xTemp, yTemp);
+    bool ifAlreadyHasIt = frontier.ifContains(coordinateToPlaceIntoQueue);
+    if (ifAlreadyHasIt) {
+        console(-1, "SKIPPED Pushed into FRONTIER Queue", coordinateToPlaceIntoQueue);
+    } else {
+        console(-1, "Pushed into FRONTIER Queue", coordinateToPlaceIntoQueue);
+        frontier.pushBack(coordinateToPlaceIntoQueue);
+    }
+}
+
+void Problem::console(const int &status, const std::string &textToDisplay, const Coordinate &inputCoordinate) {
+    if (status < -1 || status > 1) throw std::logic_error("puts() status input not recognized");
+    std::string stringStatusSet[] = {"$Pushed: ", "$Notify: ", "$Popped: "};
+    (*ofstreamPointer) << stringStatusSet[status + 1]
+                       << textToDisplay
+                       << ": [ " << inputCoordinate.getX() << " ][ " << inputCoordinate.getY()
+                       << " ] == [ s=" << inputCoordinate.getS()
+                       << " ] \n";
+}
+
+void Problem::go() {
+    bool returnOfFindPath = findPath();
+
+    if (returnOfFindPath) {
+        std::cout << "\n\n@@@Conclusion: Solution sucessfully Found!\n\n";
+        (*ofstreamPointer) << "\n\n@@@Conclusion: Solution sucessfully Found!\n\n";
+    } else {
+        std::cout << "\n\n@@@Conclusion:No Solution Found!\n\n";
+        (*ofstreamPointer) << "\n\n@@@Conclusion: No Solution Found!";
+    }
+    generateOutputFile();
+}
+
+void Problem::testWrite() {
+    if (MASTER_SWITCH_TEST) {
+        while (!visited.isEmpty()) {
+            Coordinate toBeBlue = visited.front();
+            if (inputPng(toBeBlue.getX(), toBeBlue.getY()) == WHITE)
+                inputPng(toBeBlue.getX(), toBeBlue.getY()) = BLUE;
+            visited.popFront();
+        }
+    }
+}

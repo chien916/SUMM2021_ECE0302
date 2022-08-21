@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="P4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="compare">
+				<Option output="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/compare.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/lib"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 compare"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="compare/fast">
+				<Option output="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/compare.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/lib"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 compare/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="student-tests">
+				<Option output="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/student-tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/lib"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 student-tests"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="student-tests/fast">
+				<Option output="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/student-tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/lib"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 student-tests/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pathfinder">
+				<Option output="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/pathfinder.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/lib"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 pathfinder"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pathfinder/fast">
+				<Option output="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/pathfinder.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/lib"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 pathfinder/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="submission">
+				<Option working_dir="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 submission"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="image">
+				<Option output="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/lib/libimage.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/lib"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 image"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="image/fast">
+				<Option output="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/lib/libimage.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/lib"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 image/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/abstract_deque.hpp">
+			<Option target="student-tests"/>
+			<Option target="pathfinder"/>
+		</Unit>
+		<Unit filename="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/catch.hpp">
+			<Option target="student-tests"/>
+		</Unit>
+		<Unit filename="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/compare.cpp">
+			<Option target="compare"/>
+		</Unit>
+		<Unit filename="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/deque.hpp">
+			<Option target="student-tests"/>
+			<Option target="pathfinder"/>
+		</Unit>
+		<Unit filename="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/deque.tpp">
+			<Option target="student-tests"/>
+			<Option target="pathfinder"/>
+		</Unit>
+		<Unit filename="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/lib/image.cpp">
+			<Option target="image"/>
+		</Unit>
+		<Unit filename="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/lib/image.h">
+			<Option target="image"/>
+		</Unit>
+		<Unit filename="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/lib/lodepng.cpp">
+			<Option target="image"/>
+		</Unit>
+		<Unit filename="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/lib/lodepng.h">
+			<Option target="image"/>
+		</Unit>
+		<Unit filename="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/pathfinder.cpp">
+			<Option target="pathfinder"/>
+		</Unit>
+		<Unit filename="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/test_deque.cpp">
+			<Option target="student-tests"/>
+		</Unit>
+		<Unit filename="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

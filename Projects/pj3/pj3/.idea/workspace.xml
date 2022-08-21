@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="P2" targetName="XMLParser-tests" />
+      <config projectName="P2" targetName="mainXMLParser" />
+      <config projectName="P2" targetName="mainStack" />
+      <config projectName="P2" targetName="submission" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="94292e31-6252-47a8-8b06-8f78640aa118" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FavoritesManager">
+    <favorites_list name="P2" />
+  </component>
+  <component name="ProjectId" id="1ugWJjJJ5DGbRkLRXXnO1vM5lW2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RunManager" selected="CMake Application.XMLParser-tests">
+    <configuration name="XMLParser-tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="P2" TARGET_NAME="XMLParser-tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="P2" RUN_TARGET_NAME="XMLParser-tests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mainStack" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="P2" TARGET_NAME="mainStack" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="P2" RUN_TARGET_NAME="mainStack">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mainXMLParser" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="P2" TARGET_NAME="mainXMLParser" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="P2" RUN_TARGET_NAME="mainXMLParser">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="submission" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="P2" TARGET_NAME="submission" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.mainStack" />
+      <item itemvalue="CMake Application.mainXMLParser" />
+      <item itemvalue="CMake Application.submission" />
+      <item itemvalue="CMake Application.XMLParser-tests" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94292e31-6252-47a8-8b06-8f78640aa118" name="Default Changelist" comment="" />
+      <created>1625087643315</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625087643315</updated>
+      <workItem from="1625087647307" duration="44197000" />
+      <workItem from="1625244283917" duration="29369000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="757" y="400" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1625279220279">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="757" y="400" key="#com.intellij.fileTypes.FileTypeChooser/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1625279220279" />
+    <state x="752" y="319" key="#submission" timestamp="1625279036914">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="752" y="319" key="#submission/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1625279036914" />
+    <state x="780" y="300" key="#xdebugger.evaluate" timestamp="1625238497320">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="780" y="300" key="#xdebugger.evaluate/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1625238497320" />
+    <state width="2005" height="276" key="GridCell.Tab.0.bottom" timestamp="1625284487397">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="276" key="GridCell.Tab.0.bottom/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1625284487397" />
+    <state width="2005" height="276" key="GridCell.Tab.0.center" timestamp="1625284487397">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="276" key="GridCell.Tab.0.center/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1625284487397" />
+    <state width="2005" height="276" key="GridCell.Tab.0.left" timestamp="1625284487397">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="276" key="GridCell.Tab.0.left/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1625284487397" />
+    <state width="2005" height="276" key="GridCell.Tab.0.right" timestamp="1625284487397">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="276" key="GridCell.Tab.0.right/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1625284487397" />
+    <state width="2005" height="276" key="GridCell.Tab.1.bottom" timestamp="1625284487397">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="276" key="GridCell.Tab.1.bottom/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1625284487397" />
+    <state width="2005" height="276" key="GridCell.Tab.1.center" timestamp="1625284487397">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="276" key="GridCell.Tab.1.center/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1625284487397" />
+    <state width="2005" height="276" key="GridCell.Tab.1.left" timestamp="1625284487397">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="276" key="GridCell.Tab.1.left/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1625284487397" />
+    <state width="2005" height="276" key="GridCell.Tab.1.right" timestamp="1625284487397">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="276" key="GridCell.Tab.1.right/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1625284487397" />
+    <state x="533" y="240" key="SettingsEditor" timestamp="1625262685009">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="533" y="240" key="SettingsEditor/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1625262685009" />
+    <state x="2680" y="299" width="929" height="759" maximized="true" key="dock-window-1" timestamp="1625279370710">
+      <screen x="2560" y="40" width="1152" height="680" />
+    </state>
+    <state x="2680" y="299" width="929" height="759" maximized="true" key="dock-window-1/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1625279370710" />
+    <state x="806" y="99" width="995" height="1099" key="dock-window-2" timestamp="1625178957155">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="806" y="99" width="995" height="1099" key="dock-window-2/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1625178957155" />
+    <state x="2624" y="317" width="1166" height="736" maximized="true" key="dock-window-3" timestamp="1625178956291">
+      <screen x="2560" y="40" width="1152" height="680" />
+    </state>
+    <state x="2624" y="317" width="1166" height="736" maximized="true" key="dock-window-3/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1625178956291" />
+    <state x="681" y="279" key="run.anything.popup" timestamp="1625189615479">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="681" y="279" key="run.anything.popup/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1625189615479" />
+    <state x="1096" y="288" width="672" height="678" key="search.everywhere.popup" timestamp="1625280781007">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="1096" y="288" width="672" height="678" key="search.everywhere.popup/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1625280781007" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Stack.cpp</url>
+          <line>68</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="myCharStack.headPtr" />
+        <watch expression="tempPointer-&gt;next" />
+        <watch expression="myParser" />
+        <watch expression="unclassifiedTokenizedInputVector" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

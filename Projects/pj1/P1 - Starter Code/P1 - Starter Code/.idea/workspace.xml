@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="P0" targetName="bitset-tests" />
+      <config projectName="P0" targetName="submission" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f8e1fc4e-42a2-4e38-ac40-ce91c71ef5c9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1t8HPdvpk2cY9nrwFvPmtz1Oylm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+  </component>
+  <component name="RunManager" selected="CMake Application.bitset-tests">
+    <configuration name="bitset-tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="P0" TARGET_NAME="bitset-tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="P0" RUN_TARGET_NAME="bitset-tests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="submission" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="P0" TARGET_NAME="submission" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.bitset-tests" />
+      <item itemvalue="CMake Application.submission" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8e1fc4e-42a2-4e38-ac40-ce91c71ef5c9" name="Default Changelist" comment="" />
+      <created>1622143792827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622143792827</updated>
+      <workItem from="1622143849717" duration="2154000" />
+      <workItem from="1622146240620" duration="207000" />
+      <workItem from="1622146458231" duration="89000" />
+      <workItem from="1622146558387" duration="11764000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1107" y="530" key="#C/C++" timestamp="1622153331801">
+      <screen x="0" y="48" width="2560" height="1392" />
+    </state>
+    <state x="1107" y="530" key="#C/C++/0.48.2560.1392/2560.283.1440.860@0.48.2560.1392" timestamp="1622153331801" />
+    <state width="2486" height="374" key="GridCell.Tab.0.bottom" timestamp="1622158492022">
+      <screen x="0" y="48" width="2560" height="1392" />
+    </state>
+    <state width="2486" height="374" key="GridCell.Tab.0.bottom/0.48.2560.1392/2560.283.1440.860@0.48.2560.1392" timestamp="1622158492022" />
+    <state width="2486" height="374" key="GridCell.Tab.0.center" timestamp="1622158492022">
+      <screen x="0" y="48" width="2560" height="1392" />
+    </state>
+    <state width="2486" height="374" key="GridCell.Tab.0.center/0.48.2560.1392/2560.283.1440.860@0.48.2560.1392" timestamp="1622158492022" />
+    <state width="2486" height="374" key="GridCell.Tab.0.left" timestamp="1622158492021">
+      <screen x="0" y="48" width="2560" height="1392" />
+    </state>
+    <state width="2486" height="374" key="GridCell.Tab.0.left/0.48.2560.1392/2560.283.1440.860@0.48.2560.1392" timestamp="1622158492021" />
+    <state width="2486" height="374" key="GridCell.Tab.0.right" timestamp="1622158492022">
+      <screen x="0" y="48" width="2560" height="1392" />
+    </state>
+    <state width="2486" height="374" key="GridCell.Tab.0.right/0.48.2560.1392/2560.283.1440.860@0.48.2560.1392" timestamp="1622158492022" />
+    <state x="649" y="284" key="SettingsEditor" timestamp="1622149939852">
+      <screen x="0" y="48" width="2560" height="1392" />
+    </state>
+    <state x="649" y="284" key="SettingsEditor/0.48.2560.1392/2560.283.1440.860@0.48.2560.1392" timestamp="1622149939852" />
+    <state x="1152" y="388" width="1183" height="942" key="dock-window-1" timestamp="1622155580053">
+      <screen x="0" y="48" width="2560" height="1392" />
+    </state>
+    <state x="1152" y="388" width="1183" height="942" key="dock-window-1/0.48.2560.1392/2560.283.1440.860@0.48.2560.1392" timestamp="1622155580053" />
+    <state x="859" y="353" width="840" height="1034" key="search.everywhere.popup" timestamp="1622148648254">
+      <screen x="0" y="48" width="2560" height="1392" />
+    </state>
+    <state x="859" y="353" width="840" height="1034" key="search.everywhere.popup/0.48.2560.1392/2560.283.1440.860@0.48.2560.1392" timestamp="1622148648254" />
+  </component>
+</project>

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/image.h
+algorithm
+-
+cstdint
+-
+stdexcept
+-
+string
+-
+vector
+-
+
+E:/SM2021/ece0302/Projects/pj4/Starter Code/compare.cpp
+iostream
+-
+image.h
+E:/SM2021/ece0302/Projects/pj4/Starter Code/image.h
+

@@ -1,0 +1,68 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/image.h
+algorithm
+-
+cstdint
+-
+stdexcept
+-
+string
+-
+vector
+-
+iostream
+-
+
+E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/abstract_deque.hpp
+
+E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/coordinate.yiq25
+image.h
+E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/image.h
+
+E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/deque.hpp
+abstract_deque.hpp
+E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/abstract_deque.hpp
+deque.tpp
+E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/deque.tpp
+
+E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/deque.tpp
+deque.hpp
+E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/deque.hpp
+coordinate.yiq25
+E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/coordinate.yiq25
+iostream
+-
+
+E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/pathfinder.cpp
+image.h
+E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/image.h
+deque.hpp
+E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/deque.hpp
+coordinate.yiq25
+E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/coordinate.yiq25
+problem.yiq25
+E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/problem.yiq25
+iostream
+-
+
+E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/problem.yiq25
+image.h
+E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/image.h
+deque.hpp
+E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/deque.hpp
+coordinate.yiq25
+E:/SM2021/ece0302/Projects/pj4/pj4_submission/Starter Code/coordinate.yiq25
+iostream
+-
+string
+-
+fstream
+-
+

@@ -1,0 +1,7 @@
+E:/SM2021/ece0302/Projects/pj3/pj3/cmake-build-debug/CMakeFiles/submission.dir
+E:/SM2021/ece0302/Projects/pj3/pj3/cmake-build-debug/CMakeFiles/XMLParser-tests.dir
+E:/SM2021/ece0302/Projects/pj3/pj3/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/SM2021/ece0302/Projects/pj3/pj3/cmake-build-debug/CMakeFiles/mainStack.dir
+E:/SM2021/ece0302/Projects/pj3/pj3/cmake-build-debug/CMakeFiles/mainXMLParser.dir
+E:/SM2021/ece0302/Projects/pj3/pj3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/SM2021/ece0302/Projects/pj3/pj3/cmake-build-debug/CMakeFiles/test.dir

@@ -1,0 +1,78 @@
+$Notify: Entry Point Found: [ 12 ][ 2 ] == [ s=362 ] 
+$Pushed: Pushed into FRONTIER Queue: [ 12 ][ 2 ] == [ s=362 ] 
+================================================================================================
+$Pushed: LOADED INTO CURRENT : [ 12 ][ 2 ] == [ s=362 ] 
+$Pushed: Pushed into FRONTIER Queue: [ 13 ][ 2 ] == [ s=392 ] 
+$Pushed: Pushed into FRONTIER Queue: [ 12 ][ 1 ] == [ s=361 ] 
+$Pushed: Pushed into FRONTIER Queue: [ 12 ][ 3 ] == [ s=363 ] 
+$Pushed: Pushed into  VISITED Queue: [ 12 ][ 2 ] == [ s=362 ] 
+$Popped: Popped out of FRONTIER Queue: [ 12 ][ 2 ] == [ s=362 ] 
+================================================================================================
+$Pushed: LOADED INTO CURRENT : [ 13 ][ 2 ] == [ s=392 ] 
+$Pushed: Pushed into FRONTIER Queue: [ 14 ][ 2 ] == [ s=422 ] 
+$Pushed: Pushed into  VISITED Queue: [ 13 ][ 2 ] == [ s=392 ] 
+$Popped: Popped out of FRONTIER Queue: [ 13 ][ 2 ] == [ s=392 ] 
+================================================================================================
+$Pushed: LOADED INTO CURRENT : [ 12 ][ 1 ] == [ s=361 ] 
+$Pushed: Pushed into FRONTIER Queue: [ 11 ][ 1 ] == [ s=331 ] 
+$Pushed: Pushed into  VISITED Queue: [ 12 ][ 1 ] == [ s=361 ] 
+$Popped: Popped out of FRONTIER Queue: [ 12 ][ 1 ] == [ s=361 ] 
+================================================================================================
+$Pushed: LOADED INTO CURRENT : [ 12 ][ 3 ] == [ s=363 ] 
+$Pushed: Pushed into FRONTIER Queue: [ 12 ][ 4 ] == [ s=364 ] 
+$Pushed: Pushed into  VISITED Queue: [ 12 ][ 3 ] == [ s=363 ] 
+$Popped: Popped out of FRONTIER Queue: [ 12 ][ 3 ] == [ s=363 ] 
+================================================================================================
+$Pushed: LOADED INTO CURRENT : [ 14 ][ 2 ] == [ s=422 ] 
+$Pushed: Pushed into FRONTIER Queue: [ 14 ][ 1 ] == [ s=421 ] 
+$Pushed: Pushed into FRONTIER Queue: [ 14 ][ 3 ] == [ s=423 ] 
+$Pushed: Pushed into  VISITED Queue: [ 14 ][ 2 ] == [ s=422 ] 
+$Popped: Popped out of FRONTIER Queue: [ 14 ][ 2 ] == [ s=422 ] 
+================================================================================================
+$Pushed: LOADED INTO CURRENT : [ 11 ][ 1 ] == [ s=331 ] 
+$Pushed: Pushed into FRONTIER Queue: [ 10 ][ 1 ] == [ s=301 ] 
+$Pushed: Pushed into  VISITED Queue: [ 11 ][ 1 ] == [ s=331 ] 
+$Popped: Popped out of FRONTIER Queue: [ 11 ][ 1 ] == [ s=331 ] 
+================================================================================================
+$Pushed: LOADED INTO CURRENT : [ 12 ][ 4 ] == [ s=364 ] 
+$Pushed: Pushed into FRONTIER Queue: [ 11 ][ 4 ] == [ s=334 ] 
+$Pushed: Pushed into FRONTIER Queue: [ 12 ][ 5 ] == [ s=365 ] 
+$Pushed: Pushed into  VISITED Queue: [ 12 ][ 4 ] == [ s=364 ] 
+$Popped: Popped out of FRONTIER Queue: [ 12 ][ 4 ] == [ s=364 ] 
+================================================================================================
+$Pushed: LOADED INTO CURRENT : [ 14 ][ 1 ] == [ s=421 ] 
+$Pushed: Pushed into FRONTIER Queue: [ 15 ][ 1 ] == [ s=451 ] 
+$Pushed: Pushed into FRONTIER Queue: [ 14 ][ 0 ] == [ s=420 ] 
+$Pushed: Pushed into  VISITED Queue: [ 14 ][ 1 ] == [ s=421 ] 
+$Popped: Popped out of FRONTIER Queue: [ 14 ][ 1 ] == [ s=421 ] 
+================================================================================================
+$Pushed: LOADED INTO CURRENT : [ 14 ][ 3 ] == [ s=423 ] 
+$Pushed: Pushed into FRONTIER Queue: [ 14 ][ 4 ] == [ s=424 ] 
+$Pushed: Pushed into  VISITED Queue: [ 14 ][ 3 ] == [ s=423 ] 
+$Popped: Popped out of FRONTIER Queue: [ 14 ][ 3 ] == [ s=423 ] 
+================================================================================================
+$Pushed: LOADED INTO CURRENT : [ 10 ][ 1 ] == [ s=301 ] 
+$Pushed: Pushed into FRONTIER Queue: [ 10 ][ 0 ] == [ s=300 ] 
+$Pushed: Pushed into FRONTIER Queue: [ 10 ][ 2 ] == [ s=302 ] 
+$Pushed: Pushed into  VISITED Queue: [ 10 ][ 1 ] == [ s=301 ] 
+$Popped: Popped out of FRONTIER Queue: [ 10 ][ 1 ] == [ s=301 ] 
+================================================================================================
+$Pushed: LOADED INTO CURRENT : [ 11 ][ 4 ] == [ s=334 ] 
+$Pushed: Pushed into FRONTIER Queue: [ 10 ][ 4 ] == [ s=304 ] 
+$Pushed: Pushed into  VISITED Queue: [ 11 ][ 4 ] == [ s=334 ] 
+$Popped: Popped out of FRONTIER Queue: [ 11 ][ 4 ] == [ s=334 ] 
+================================================================================================
+$Pushed: LOADED INTO CURRENT : [ 12 ][ 5 ] == [ s=365 ] 
+$Pushed: Pushed into FRONTIER Queue: [ 13 ][ 5 ] == [ s=395 ] 
+$Pushed: Pushed into FRONTIER Queue: [ 12 ][ 6 ] == [ s=366 ] 
+$Pushed: Pushed into  VISITED Queue: [ 12 ][ 5 ] == [ s=365 ] 
+$Popped: Popped out of FRONTIER Queue: [ 12 ][ 5 ] == [ s=365 ] 
+================================================================================================
+$Pushed: LOADED INTO CURRENT : [ 15 ][ 1 ] == [ s=451 ] 
+$Pushed: Pushed into FRONTIER Queue: [ 16 ][ 1 ] == [ s=481 ] 
+$Pushed: Pushed into  VISITED Queue: [ 15 ][ 1 ] == [ s=451 ] 
+$Popped: Popped out of FRONTIER Queue: [ 15 ][ 1 ] == [ s=451 ] 
+================================================================================================
+$Pushed: LOADED INTO CURRENT : [ 14 ][ 0 ] == [ s=420 ] 
+================================================================================================
+$Notify: Exit Point Found

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="P1" targetName="FindPalindrome-main" />
+      <config projectName="P1" targetName="FindPalindrome-tests" />
+      <config projectName="P1" targetName="submission" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2de74f23-f335-4c16-a856-c420ea61e317" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1tohcxMOTEz8U4E5xQEzN4QSHuw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RunManager" selected="CMake Application.FindPalindrome-tests">
+    <configuration name="FindPalindrome-main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="P1" TARGET_NAME="FindPalindrome-main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="P1" RUN_TARGET_NAME="FindPalindrome-main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindPalindrome-tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="P1" TARGET_NAME="FindPalindrome-tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="P1" RUN_TARGET_NAME="FindPalindrome-tests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="submission" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="P1" TARGET_NAME="submission" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.FindPalindrome-main" />
+      <item itemvalue="CMake Application.FindPalindrome-tests" />
+      <item itemvalue="CMake Application.submission" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2de74f23-f335-4c16-a856-c420ea61e317" name="Default Changelist" comment="" />
+      <created>1623441435415</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623441435415</updated>
+      <workItem from="1623441445456" duration="24351000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="617" y="256" key="#Updates" timestamp="1623614261306">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="617" y="256" key="#Updates/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1623614261306" />
+    <state x="346" y="572" key="FileChooserDialogImpl" timestamp="1623449036688">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="346" y="572" key="FileChooserDialogImpl/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1623449036688" />
+    <state width="2005" height="287" key="GridCell.Tab.0.bottom" timestamp="1623629152180">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="287" key="GridCell.Tab.0.bottom/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1623629152180" />
+    <state width="2005" height="287" key="GridCell.Tab.0.center" timestamp="1623629152180">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="287" key="GridCell.Tab.0.center/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1623629152180" />
+    <state width="2005" height="287" key="GridCell.Tab.0.left" timestamp="1623629152180">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="287" key="GridCell.Tab.0.left/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1623629152180" />
+    <state width="2005" height="287" key="GridCell.Tab.0.right" timestamp="1623629152180">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="287" key="GridCell.Tab.0.right/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1623629152180" />
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1623629152175">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1623629152175" />
+    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1623629152175">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.center/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1623629152175" />
+    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1623629152175">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.left/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1623629152175" />
+    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1623629152175">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.right/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1623629152175" />
+    <state x="533" y="240" key="SettingsEditor" timestamp="1623449038576">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="533" y="240" key="SettingsEditor/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1623449038576" />
+    <state x="687" y="283" width="672" height="678" key="search.everywhere.popup" timestamp="1623620013648">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="687" y="283" width="672" height="678" key="search.everywhere.popup/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1623620013648" />
+  </component>
+</project>

@@ -1,0 +1,11 @@
+E:/SM2021/ece0302/Projects/pj4/Starter Code/cmake-build-debug/CMakeFiles/compare.dir
+E:/SM2021/ece0302/Projects/pj4/Starter Code/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/SM2021/ece0302/Projects/pj4/Starter Code/cmake-build-debug/CMakeFiles/student-tests.dir
+E:/SM2021/ece0302/Projects/pj4/Starter Code/cmake-build-debug/CMakeFiles/pathfinder.dir
+E:/SM2021/ece0302/Projects/pj4/Starter Code/cmake-build-debug/CMakeFiles/submission.dir
+E:/SM2021/ece0302/Projects/pj4/Starter Code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/SM2021/ece0302/Projects/pj4/Starter Code/cmake-build-debug/CMakeFiles/test.dir
+E:/SM2021/ece0302/Projects/pj4/Starter Code/cmake-build-debug/lib/CMakeFiles/image.dir
+E:/SM2021/ece0302/Projects/pj4/Starter Code/cmake-build-debug/lib/CMakeFiles/rebuild_cache.dir
+E:/SM2021/ece0302/Projects/pj4/Starter Code/cmake-build-debug/lib/CMakeFiles/test.dir
+E:/SM2021/ece0302/Projects/pj4/Starter Code/cmake-build-debug/lib/CMakeFiles/edit_cache.dir

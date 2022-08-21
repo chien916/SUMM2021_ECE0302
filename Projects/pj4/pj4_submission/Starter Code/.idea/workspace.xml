@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="P4" targetName="compare" />
+      <config projectName="P4" targetName="student-tests" />
+      <config projectName="P4" targetName="image" />
+      <config projectName="P4" targetName="pathfinder" />
+      <config projectName="P4" targetName="submission" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8458c53e-b1cd-4416-b385-c5c8021a93b2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1vIjH1dfaPZ9myvG7oCsCGPgv5u" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Debugger" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="compare" />
+      <command value="./compare a.png b.png" />
+      <command value="compare a.png b.png" />
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.pathfinder">
+    <configuration name="compare" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="YIQ25_OUT_maze01.png output01.png" PASS_PARENT_ENVS_2="true" PROJECT_NAME="P4" TARGET_NAME="compare" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="P4" RUN_TARGET_NAME="compare">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="image" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="P4" TARGET_NAME="pathfinder" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="P4" RUN_TARGET_NAME="pathfinder">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pathfinder" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="maze00.png maze00.png" WORKING_DIR="file://$PROJECT_DIR$/tests" PASS_PARENT_ENVS_2="true" PROJECT_NAME="P4" TARGET_NAME="pathfinder" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="P4" RUN_TARGET_NAME="pathfinder">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="student-tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="P4" TARGET_NAME="student-tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="P4" RUN_TARGET_NAME="student-tests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="submission" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="P4" TARGET_NAME="submission" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.compare" />
+      <item itemvalue="CMake Application.image" />
+      <item itemvalue="CMake Application.pathfinder" />
+      <item itemvalue="CMake Application.student-tests" />
+      <item itemvalue="CMake Application.submission" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8458c53e-b1cd-4416-b385-c5c8021a93b2" name="Default Changelist" comment="" />
+      <created>1626256405708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626256405708</updated>
+      <workItem from="1626256409092" duration="17103000" />
+      <workItem from="1626324595689" duration="215000" />
+      <workItem from="1626324828385" duration="68000" />
+      <workItem from="1626324911411" duration="17266000" />
+      <workItem from="1626356695155" duration="59000" />
+      <workItem from="1626356766736" duration="29321000" />
+      <workItem from="1626407087586" duration="698000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="483" y="357" width="1089" height="732" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626407740612">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="483" y="357" width="1089" height="732" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626407740612" />
+    <state x="751" y="400" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1626343284206">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="751" y="400" key="#com.intellij.fileTypes.FileTypeChooser/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626343284206" />
+    <state x="752" y="319" key="#image" timestamp="1626344506417">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="752" y="319" key="#image/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626344506417" />
+    <state x="752" y="319" key="#submission" timestamp="1626285985686">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="752" y="319" key="#submission/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626285985686" />
+    <state x="1128" y="381" key="#xdebugger.evaluate" timestamp="1626385220061">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="1128" y="381" key="#xdebugger.evaluate/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626385220061" />
+    <state x="177" y="429" key="FileChooserDialogImpl" timestamp="1626407100501">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="177" y="429" key="FileChooserDialogImpl/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626407100501" />
+    <state width="2005" height="310" key="GridCell.Tab.0.bottom" timestamp="1626397877711">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="310" key="GridCell.Tab.0.bottom/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626397877711" />
+    <state width="2005" height="310" key="GridCell.Tab.0.center" timestamp="1626397877711">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="310" key="GridCell.Tab.0.center/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626397877711" />
+    <state width="2005" height="310" key="GridCell.Tab.0.left" timestamp="1626397877711">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="310" key="GridCell.Tab.0.left/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626397877711" />
+    <state width="2005" height="310" key="GridCell.Tab.0.right" timestamp="1626397877711">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="310" key="GridCell.Tab.0.right/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626397877711" />
+    <state width="2005" height="310" key="GridCell.Tab.1.bottom" timestamp="1626397877712">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="310" key="GridCell.Tab.1.bottom/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626397877712" />
+    <state width="2005" height="310" key="GridCell.Tab.1.center" timestamp="1626397877712">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="310" key="GridCell.Tab.1.center/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626397877712" />
+    <state width="2005" height="310" key="GridCell.Tab.1.left" timestamp="1626397877711">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="310" key="GridCell.Tab.1.left/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626397877711" />
+    <state width="2005" height="310" key="GridCell.Tab.1.right" timestamp="1626397877712">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="310" key="GridCell.Tab.1.right/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626397877712" />
+    <state x="406" y="382" width="981" height="707" key="SettingsEditor" timestamp="1626328748365">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="406" y="382" width="981" height="707" key="SettingsEditor/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626328748365" />
+    <state x="985" y="117" width="1037" height="1118" key="dock-window-1" timestamp="1626357015782">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="985" y="117" width="1037" height="1118" key="dock-window-1/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626357015782" />
+    <state x="681" y="279" width="672" height="677" key="run.anything.popup" timestamp="1626326051712">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="681" y="279" width="672" height="677" key="run.anything.popup/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626326051712" />
+    <state x="1198" y="288" width="672" height="678" key="search.everywhere.popup" timestamp="1626380838600">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="1198" y="288" width="672" height="678" key="search.everywhere.popup/2560.40.1152.680/0.40.2048.1112@0.40.2048.1112" timestamp="1626380838600" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/deque.tpp</url>
+          <line>101</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="arrayPointer" language="ObjectiveC" />
+        <watch expression="maze" />
+        <watch expression="maze" />
+        <watch expression="inputPng(inputCoordinate.getY(), inputCoordinate.getX())" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

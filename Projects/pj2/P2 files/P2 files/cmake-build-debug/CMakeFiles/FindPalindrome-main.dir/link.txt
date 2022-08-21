@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\FindPalindrome-main.dir/objects.a
+D:\MinGW\bin\ar.exe cr CMakeFiles\FindPalindrome-main.dir/objects.a @CMakeFiles\FindPalindrome-main.dir\objects1.rsp
+D:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\FindPalindrome-main.dir/objects.a -Wl,--no-whole-archive  -o FindPalindrome-main.exe -Wl,--out-implib,libFindPalindrome-main.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FindPalindrome-main.dir\linklibs.rsp
